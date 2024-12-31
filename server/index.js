@@ -12,7 +12,7 @@ const __dirname = dirname(__filename);
 const app = express();
 app.use(cors({
   origin: [
-    'https://lambent-nasturtium-dbb11c.netlify.app',
+    'https://5173-idx-gh-1735545338474.cluster-7ubberrabzh4qqy2g4z7wgxuw2.cloudworkstations.dev',
     'http://localhost:5173'
   ],
   methods: ['GET', 'POST'],
